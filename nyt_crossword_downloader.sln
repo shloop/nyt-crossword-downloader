@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nyt_crossword_downloader", "nyt_crossword_downloader\nyt_crossword_downloader.csproj", "{B5D902F5-5F25-4095-8145-F70B7ACB4412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D902F5-5F25-4095-8145-F70B7ACB4412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D902F5-5F25-4095-8145-F70B7ACB4412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D902F5-5F25-4095-8145-F70B7ACB4412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D902F5-5F25-4095-8145-F70B7ACB4412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71389D72-981C-493D-A058-4E6616AD4364}
+	EndGlobalSection
+EndGlobal
