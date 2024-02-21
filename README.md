@@ -5,9 +5,11 @@ This is a utility for scraping New York Times crossword puzzles and answers in t
 
 ### Basic
 
-To use the latest release, you must have the [.NET 8.0 runtime](https://dotnet.microsoft.com/en-us/download) or later installed.
+You can download the latest Windows x64 release [here](https://github.com/shloop/nyt-crossword-downloader/releases/latest/download/nyt-crossword-downloader.exe). You must have the [.NET 8.0 runtime](https://dotnet.microsoft.com/en-us/download) or later installed to use it.
 
-Place `cookies.txt` with current authentication to New York Times crosswords (https://www.nytimes.com/crosswords) in same directory as `nyt-crossword-downloader.exe` and run the executable to scrape all puzzles in all formats.
+If you haven't already, log into the New York Times website and verify you have access to the crossword puzzles (https://www.nytimes.com/crosswords), then save your cookies to a file. This can be done via a browser extension. I use [this one](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/) for Firefox.
+
+Once you have your cookies file with the needed authentication info, rename it to `cookies.txt`, place it in the same directory as `nyt-crossword-downloader.exe` and then run the executable to scrape all puzzles in all formats.
 
 ### Advanced
 
@@ -24,5 +26,5 @@ usage: nyt-crossword-downloader [options]
     -f, --force-overwrite         Overwrite existing puzzles.
     -s, --start-date date         Starts scraping at specified puzzle date. Date must be in format yyyy-MM-dd. Default = 1993-11-21 (date of oldest puzzle available).
     -e, --end-date date           Stops scraping at specified puzzle date, inclusive. Date must be in format yyyy-MM-dd. Default = current date.
-    -r, --retries number          Attempts to retry failed downloads up specified number of times. Default = 3.
+    -r, --retries number          Attempts to retry failed downloads up to specified number of times. Default = 3.
 ```
