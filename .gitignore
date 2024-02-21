@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/nyt_crossword_downloader/Properties/launchSettings.json
+/nyt-crossword-downloader/nyt-crossword-downloader.csproj.user
