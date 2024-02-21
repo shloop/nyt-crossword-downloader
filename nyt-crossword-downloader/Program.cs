@@ -45,7 +45,7 @@ void printHelpText()
         $"    -f, --force-overwrite         Overwrite existing puzzles.\r\n" +
         $"    -s, --start-date date         Starts scraping at specified puzzle date. Date must be in format yyyy-MM-dd. Default = {dailyStartDate:yyyy-MM-dd} (date of oldest puzzle available).\r\n" +
         $"    -e, --end-date date           Stops scraping at specified puzzle date, inclusive. Date must be in format yyyy-MM-dd. Default = current date.\r\n" +
-        $"    -r, --retries number          Attempts to retry failed downloads up specified number of times. Default = {DEFAULT_RETRIES}."
+        $"    -r, --retries number          Attempts to retry failed downloads up to specified number of times. Default = {DEFAULT_RETRIES}."
     );
 }
 // Show help text if requested
