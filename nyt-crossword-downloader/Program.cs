@@ -204,7 +204,7 @@ if (startDate.Date > endDate.Date)
 
 if (!File.Exists(cookiePath))
 {
-    LogError($"Could not find cookie file at {cookiePath}");
+    LogError($"Could not find cookie file at \"{cookiePath}\"");
     return;
 }
 
